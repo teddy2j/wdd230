@@ -1,0 +1,82 @@
+html {
+    font-family: 'Tektur', sans-serif;
+
+}
+
+header {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blue;
+    padding: 20px 0;
+    color: white;
+
+}
+
+h1 {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 img {
+    width: 100px;
+    padding-right: 50px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+nav {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+}
+
+nav ul li {
+    padding: 10px;
+
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.card {
+    display: grid;
+    border: 1px solid black;
+    margin-bottom: 10px;
+
+}
+
+.card h3 {
+    margin: 0;
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    width: 650px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: blue;
+    padding: 20px 0;
+    color: white;
+}
