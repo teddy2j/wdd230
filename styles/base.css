@@ -6,7 +6,6 @@ html {
 header {
     width: 650px;
     margin: 0 auto;
-    text-align: center;
     background-color: blue;
     padding: 20px 0;
     color: white;
@@ -26,25 +25,29 @@ h1 img {
     padding-right: 50px;
 }
 
-ul {
-    margin: 0;
-    list-style: none;
-}
 
 nav {
     width: 650px;
     margin: 0 auto;
-    text-align: center;
     background-color: black;
 }
 
-nav a {
-    color: white;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-nav ul li {
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
     padding: 10px;
 
+}
+
+a:hover {
+    border: 1px solid white;
 }
 
 main {
@@ -61,7 +64,6 @@ main h2 {
     display: grid;
     border: 1px solid black;
     margin-bottom: 10px;
-
 }
 
 .card h3 {
@@ -71,6 +73,12 @@ main h2 {
     padding: 10px;
     color: white;
 }
+
+.card li {
+    padding: 5px;
+}
+
+
 
 footer {
     width: 650px;
