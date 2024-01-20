@@ -1,0 +1,58 @@
+header {
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(12, 61, 2);
+    color: white;
+    padding: 3px;
+
+}
+
+p {
+    font-size: x-large;
+}
+
+main {
+    width: 65vw;
+    margin: 10px auto;
+
+}
+
+section {
+    background-color: rgb(219, 245, 148);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+section h2 {
+    background-color: rgb(12, 61, 2);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+section p,
+a {
+    padding-left: 10px;
+    font-size: larger;
+    display: block;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+}
+
+footer {
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(12, 61, 2);
+    color: white;
+    padding: 20px;
+
+}
