@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Song+Myung&display=swap');
+
+:root {
+    --primary-color: #fed766;
+    --secondary-color: #009fb7;
+    --third-color: #fe4a49;
+    --heading-font: 'Archivo', sans-serif;
+    --paragraph-font: 'Song Myung', serif;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    background-color: var(--primary-color);
+    padding: 20px;
+
+}
+
+p {
+    font-family: var(--paragraph-font);
+}

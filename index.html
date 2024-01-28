@@ -18,21 +18,24 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://teddy2j.github.io/wdd230/" />
     <meta property="og:image" content="images/og.PNG" />
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/hamburguerMenu.js" defer></script>
 </head>
 
 <body>
     <header>
         <h1> <img src="images/profile-image.jpg" alt="Profile Image"> Teddy Espino</h1>
     </header>
+    <button id="menu"></button>
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
-            <li><a href="chamber/">Chamber</a></li>
-            <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
-            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/18?lang=eng&id=p20#p20"
-                    target="_blank">Scripture</a> </li>
-        </ul>
+
+        <a href="#">Home</a>
+        <a href="#">Site Plan</a>
+        <a href="lesson03/chamber-site-plan.html">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/18?lang=eng&id=p20#p20"
+            target="_blank">Scripture</a>
+
     </nav>
     <main>
         <h2>WDD 230: Web Frontend Development</h2>
@@ -40,13 +43,21 @@
             <h3>Learning Activities</h3>
             <ol>
                 <li>
-                    <a href="lesson02/design-principles.html">Design Principles</a>
+                    <a href="lesson01/holygrail.html">Holy Layout</a> <a href="lesson01/holygrail.html"></a>
                 </li>
                 <li>
-                    <a href="#">activity2</a>
+                    <a href="lesson02/design.html">Design Learning Activity</a> | <a
+                        href="lesson02/media-query.html">Media Query</a> | <a
+                        href="lesson02/design-principles.html">Design
+                        Principles</a>
                 </li>
                 <li>
-                    <a href="#">activity3</a>
+                    <a href="lesson03/images/Capture.PNG">CSS Combinators screenshot</a> | <a
+                        href="https://codepen.io/Teddy-Espino/pen/ExMwyEL">Pseudo Elements</a> | <a
+                        href="https://codepen.io/Teddy-Espino/pen/abMLBoO">Responsive Hamburguer Menu</a>
+                </li>
+                <li>
+                    <a href="#">activity</a>
                 </li>
             </ol>
         </section>
@@ -55,12 +66,17 @@
             <p>Weather: <span id="weatherPlaceholder">soon</span></p>
             <p>Number of Visits: <span id="visitsPlaceholder">soon</span></p>
         </section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.92380660681!2d-79.908075!3d-2.0635438500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sec!4v1706209645567!5m2!1sen!2sec"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </main>
     <footer>
         <p>&copy; <span id="date"></span> Teddy Espino - Ecuador</p>
         <p id="lastModified"></p>
     </footer>
 </body>
-<script src="scripts/getdates.js"></script>
+
 
 </html>
