@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Song+Myung&display=swap');
+
+:root {
+    --primary-color: #fed766;
+    --secondary-color: #009fb7;
+    --third-color: #fe4a49;
+    --heading-font: 'Archivo', sans-serif;
+    --paragraph-font: 'Song Myung', serif;
+}
+
+
+
+header {
+    background-color: var(--primary-color);
+
+}
+
+.utility {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.utility img {
+    height: 150px;
+}
+
+.utility button {
+    font-size: larger;
+    padding: 30px;
+    margin: 20px
+}
+
+.logo p {
+    font-family: var(--heading-font);
+    margin: 0;
+    text-align: center;
+}
+
+#menu {
+    font-size: 2rem;
+    background-color: rgba(255, 0, 0, 0);
+    font-weight: 900;
+    padding: 3px 7px 6px;
+    border: 0;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "--";
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+    display: none;
+}
+
+.open a {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.call-to-action {
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    padding: 20px;
+    border: 1px solid black;
+    top: 450px;
+    left: 100px;
+    font-size: large;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+.card {
+    padding: 100px;
+    margin: 10px;
+    background-color: #fff9e6;
+    border: 2px solid #009fb7;
+    font-family: var(--paragraph-font);
+}
+
+footer {
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    padding: 10px;
+}
+
+.information {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.address img {
+    width: 120px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.copyright {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
