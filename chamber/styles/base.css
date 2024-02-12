@@ -2,10 +2,11 @@
 
 :root {
     --primary-color: #fed766;
-    --secondary-color: #009fb7;
+    --secondary-color: #00414b;
     --third-color: #fe4a49;
     --heading-font: 'Archivo', sans-serif;
     --paragraph-font: 'Song Myung', serif;
+    color: var(--secondary-color);
 }
 
 
@@ -34,10 +35,19 @@ header {
     margin: 20px
 }
 
-.logo p {
+.logo {
     font-family: var(--heading-font);
     margin: 0;
     text-align: center;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 #menu {
@@ -46,6 +56,7 @@ header {
     font-weight: 900;
     padding: 3px 7px 6px;
     border: 0;
+    cursor: pointer;
 }
 
 #menu::before {
@@ -60,8 +71,12 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-family: var(--paragraph-font);
-    color: var(--secondary-color);
     display: none;
+    color: var(--secondary-color);
+    text-shadow: -1px -1px 0 var(--primary-color),
+        1px -1px 0 var(--primary-color),
+        -1px 1px 0 var(--primary-color),
+        1px 1px 0 var(--primary-color);
 }
 
 .open a {
@@ -71,24 +86,39 @@ nav a {
     padding: 10px;
 }
 
+.hero {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
 .call-to-action {
     text-decoration: none;
     display: block;
     position: absolute;
     padding: 20px;
-    border: 1px solid black;
-    top: 450px;
-    left: 100px;
+    border: 2px solid var(--secondary-color);
+    top: 15px;
+    left: 15px;
     font-size: large;
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     font-family: var(--heading-font);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--secondary-color);
 }
 
 .card {
     padding: 100px;
     margin: 10px;
     background-color: #fff9e6;
-    border: 2px solid #009fb7;
+    border: 2px solid var(--secondary-color);
     font-family: var(--paragraph-font);
 }
 
@@ -118,7 +148,8 @@ footer {
 }
 
 .copyright {
+    border-top: 1px solid var(--secondary-color);
     width: 70%;
-    margin: 0 auto;
+    margin: 5px auto;
     text-align: center;
 }
