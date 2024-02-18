@@ -4,7 +4,7 @@ html {
 }
 
 header {
-    width: 70vw;
+    width: 95vw;
     margin: 0 auto;
     background-color: rgb(23, 61, 110);
     padding: 5px 0;
@@ -32,7 +32,7 @@ h1 img {
     color: white;
     position: absolute;
     top: 1px;
-    right: 15vw;
+    right: 20px;
 }
 
 #menu::before {
@@ -46,7 +46,7 @@ h1 img {
 
 
 nav {
-    width: 70vw;
+    width: 95vw;
     margin: 0 auto;
     background-color: black;
 }
@@ -67,8 +67,33 @@ a:hover {
     display: block;
 }
 
+.hero {
+    width: 90vw;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+.label {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    border: 1px solid black;
+    padding: 40px;
+    background-image: radial-gradient(circle at center, #edeeff, #5b5c79);
+    font-weight: bold;
+    font-size: larger;
+
+}
+
 main {
-    width: 65vw;
+    width: 90vw;
     margin: 0 auto;
 }
 
@@ -98,11 +123,11 @@ main h2 {
 }
 
 iframe {
-    width: 65vw;
+    width: 100%;
 }
 
 footer {
-    width: 70vw;
+    width: 90vw;
     margin: 20px auto;
     text-align: center;
     background-color: rgb(23, 61, 110);

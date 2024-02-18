@@ -17,14 +17,14 @@
     <meta property="og:title" content="Teddy Espino - WDD 230 - Web Frontend Development" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://teddy2j.github.io/wdd230/" />
-    <meta property="og:image" content="images/og.PNG" />
+    <meta property="og:image" content="images/og.Webp" />
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburguerMenu.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1> <img src="images/profile-image.jpg" alt="Profile Image"> Teddy Espino</h1>
+        <h1> <img src="images/profile-image.webp" alt="Profile Image"> Teddy Espino</h1>
     </header>
     <button id="menu"></button>
     <nav>
@@ -37,7 +37,16 @@
             target="_blank">Scripture</a>
 
     </nav>
+
+    <div class="hero">
+        <div class="label">Guayaquil Temple</div>
+        <picture>
+            <source media="(max-width: 800px)" srcset="images/hero-small.webp">
+            <img src="images/hero-large.webp" alt="Guayaquil Temple" width="1500" height="750">
+        </picture>
+    </div>
     <main>
+
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -61,6 +70,10 @@
                 </li>
                 <li>
                     <a href="lesson05/bom.html">DOM Manipulation (BOM)</a>
+                </li>
+                <li>
+                    <a href="lesson06/images/landscape.webp">WebP</a>
+                    <a href="lesson06/responsive-images.html">Responsive Images</a>
                 </li>
             </ol>
         </section>
