@@ -33,10 +33,12 @@ h1 img {
     position: absolute;
     top: 1px;
     right: 20px;
+    cursor: pointer;
 }
 
 #menu::before {
     content: "☰";
+
 }
 
 #menu.open::before {

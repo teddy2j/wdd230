@@ -4,10 +4,6 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .hero {
-        grid-column: 1/4;
-    }
-
     #events {
         grid-column: 1/3;
     }
