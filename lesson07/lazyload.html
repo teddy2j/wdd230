@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Teddy Espino">
+    <meta name="description"
+        content="Small page with multiple images to scroll through as they are stacked on top of each other on a single page.">
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Loading</h1>
+
+    </header>
+    <main>
+        <img src="https://loremflickr.com/400/600?random=1" alt="image 1" loading="lazy" />
+        <img src="https://loremflickr.com/400/700?random=2" alt="image 2" loading="lazy" />
+        <img src="https://loremflickr.com/400/800?random=3" alt="image 3" loading="lazy" />
+        <img src="https://loremflickr.com/400/800?random=4" alt="image 4" loading="lazy" />
+        <img src="https://loremflickr.com/400/600?random=5" alt="image 5" loading="lazy" />
+        <img src="https://loremflickr.com/400/800?random=6" alt="image 6" loading="lazy" />
+
+    </main>
+    <footer>
+        <p>&copy; <span id="date"></span> Teddy Espino - Ecuador</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
