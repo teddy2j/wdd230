@@ -157,3 +157,53 @@ footer {
     margin: 5px auto;
     text-align: center;
 }
+
+.discover-main {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.sidebar div {
+    border: 3px solid var(--secondary-color);
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sidebar div h3 {
+    border-bottom: 2px solid var(--secondary-color);
+    background-color: #fed766;
+    margin: 0;
+    padding: 20px;
+}
+
+.sidebar div p {
+    padding: 10px;
+}
+
+.sidebar div img {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.sidebar div iframe {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.photos-discover {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.photos-discover img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
