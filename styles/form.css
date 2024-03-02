@@ -1,0 +1,45 @@
+:root {
+    --boxPadding: 12px;
+    --boxColor: rgb(247, 247, 247);
+    --boxBorder: 1px solid black;
+
+}
+
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+label {
+    display: block;
+    margin: 30px 0;
+}
+
+input {
+    display: block;
+    padding: var(--boxPadding);
+    width: 100%;
+    max-width: 25rem;
+    background-color: var(--boxColor);
+    border: var(--boxBorder);
+}
+
+.submitBtn {
+    background-color: rgb(23, 61, 110);
+    color: white;
+    cursor: pointer;
+}
+
+#rangevalue {
+    font-size: 2em;
+    padding-top: 20px;
+
+}
