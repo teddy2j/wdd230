@@ -30,4 +30,9 @@
         box-shadow: 0 0 20px var(--secondary-color);
 
     }
+
+    .formArea {
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
 }

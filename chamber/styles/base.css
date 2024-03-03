@@ -207,3 +207,82 @@ footer {
     margin: 0 auto;
     margin-top: 20px;
 }
+
+
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+label {
+    display: block;
+    margin: 30px 0;
+}
+
+input {
+    display: block;
+    padding: 12px;
+    width: 100%;
+    max-width: 25rem;
+    background-color: #fff9e6;
+    border: 1px solid black;
+}
+
+.submitBtn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+#rangevalue {
+    font-size: 2em;
+    padding-top: 20px;
+
+}
+
+.membership {
+    display: inline;
+    width: 30px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 25rem;
+    background-color: #fff9e6;
+
+}
+
+form div {
+    font-weight: bolder;
+}
+
+.memberships {
+    width: 90%;
+    margin: auto;
+}
+
+.membershipCard {
+    border: 1px solid #00414b;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.membershipCard h3 {
+    background-color: #fed766;
+    margin: 0;
+    padding: 15px;
+}
+
+h2 {
+    padding-left: 15px;
+}
