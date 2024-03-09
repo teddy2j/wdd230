@@ -1,0 +1,24 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1,
+h2 {
+    color: rgb(4, 4, 97);
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+section {
+    box-sizing: border-box;
+    width: 95%;
+    background-color: rgb(170, 172, 189);
+    text-align: center;
+    margin: 10px 10px;
+    padding: 10px;
+
+}

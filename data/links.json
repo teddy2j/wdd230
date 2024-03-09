@@ -1,0 +1,117 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "lesson01/holygrail.html",
+                    "title": "Holy Layout"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/design.html",
+                    "title": "Design Learning Activity"
+                },
+                {
+                    "url": "lesson02/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "lesson03/images/Capture.PNG",
+                    "title": "CSS Combinators screenshot"
+                },
+                {
+                    "url": "https://codepen.io/Teddy-Espino/pen/ExMwyEL",
+                    "title": "Pseudo Elements"
+                },
+                {
+                    "url": "https://codepen.io/Teddy-Espino/pen/abMLBoO",
+                    "title": "Responsive Hamburguer Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Teddy-Espino/pen/LYaQQvG",
+                    "title": "CSS Pseudo-classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "DOM Manipulation (BOM)"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson06/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "Web Storage Activity (BOM part II)"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "lesson08/form-start/index.html",
+                    "title": "HTML Forms"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "JSON Example"
+                },
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "Fetch API (LDS Prophets cards)"
+                }
+            ]
+        }
+    ]
+}
