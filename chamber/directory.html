@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MetroLote Chamber of Commerce Siteplan</title>
+    <title>MetroLote Chamber of Commerce Directory Page</title>
     <meta name="author" content="Teddy Espino">
-    <meta name="description" content="MetroLote Chamber of Commerce was created to connect various businesses and member services within
-    MuchoLote-Metropolis sector, and to create a strong and united community.">
+    <meta name="description" content="The chamber directory page lists the members of the chamber.">
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/grid-list-toggle.js" defer></script>
     <meta property="og:title" content="Teddy Espino - WDD 230 - MetroLote Chamber of Commerce" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://teddy2j.github.io/wdd230/chamber" />
@@ -48,38 +48,15 @@
     </header>
 
     <button id="menu"></button>
-    <div class="hero">
-        <picture>
-            <source media="(max-width: 900px)" srcset="images/hero-w06-small.webp">
-            <source media="(max-width: 1300px)" srcset="images/hero-w06-medium.webp">
-            <img src="images/hero-w06-large.webp" alt="hero img">
-            <a href="join.html" class="call-to-action">Join the chamber</a>
-        </picture>
+
+    <div class="grid-list">
+        <button id="grid">⏹️ Grid</button>
+        <button id="list">📄 List</button>
     </div>
 
-    <main>
-        <section id="events" class="card">
-            Events placeholder
-        </section>
+    <article class="grid">
 
-        <section class="card">
-            <p>Temperature: <span id="temperature">30</span> F</p>
-            <p>Wind Speed: <span id="windspeed">4</span> mph</p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-        </section>
-
-        <section class="card">
-            Ad placeholder
-        </section>
-
-        <section class="card">
-            Ad placeholder
-        </section>
-
-        <section class="card">
-            Ad placeholder
-        </section>
-    </main>
+    </article>
 
     <footer>
         <section class="information">
