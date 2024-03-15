@@ -22,6 +22,7 @@
     <script src="scripts/hamburguerMenu.js" defer></script>
     <script src="scripts/visitsCounter.js" defer></script>
     <script src="scripts/links.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 
 <body>
@@ -97,7 +98,11 @@
         </section>
         <section class="card">
             <h3>Information</h3>
-            <p>Weather: <span id="weatherPlaceholder">soon</span></p>
+            <p>The current temperature in Guayaquil, Ecuador is <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
             <p>Number of Visits: <span id="visitsPlaceholder">soon</span></p>
         </section>
         <iframe
