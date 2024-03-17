@@ -9,35 +9,33 @@
     color: var(--secondary-color);
 }
 
-
-
 header {
     background-color: var(--primary-color);
 
 }
 
 .utility {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto .8fr;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 auto;
     padding: 10px;
-}
-
-.utility img {
-    height: 150px;
-}
-
-.utility button {
-    font-size: larger;
-    padding: 30px;
-    margin: 20px
 }
 
 .logo {
     font-family: var(--heading-font);
     text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+.logo img {
+    height: 150px;
+    margin: 10px 30px;
+}
+
+
 
 #mode {
     position: absolute;
@@ -63,10 +61,6 @@ header {
 
 #menu.open::before {
     content: "--";
-}
-
-nav {
-    width: 100%;
 }
 
 nav a {
@@ -121,11 +115,11 @@ main {
 }
 
 .card {
+    padding: 100px;
     margin: 10px;
     background-color: #fff9e6;
     border: 2px solid var(--secondary-color);
     font-family: var(--paragraph-font);
-    padding: 10px;
 }
 
 footer {
@@ -339,42 +333,4 @@ article img {
 #list {
     width: 300px;
     height: 50px;
-}
-
-#forecastWeather {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
-#forecastWeather div {
-    border: #00414b solid 1px;
-    padding: 10px;
-}
-
-#banner {
-    position: fixed;
-    top: 100px;
-    left: 100px;
-    width: 70%;
-    height: 70%;
-    background-color: #bed;
-    font-size: 2em;
-    text-align: center;
-    display: none;
-}
-
-#banner p {
-    width: 40%;
-    margin: auto auto;
-    margin-top: 7em;
-}
-
-#closeBanner {
-    position: absolute;
-    top: 0;
-    right: 5px;
-    margin: 0;
-    cursor: pointer;
 }

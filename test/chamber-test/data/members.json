@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Sweet & Coffee",
+            "address": "C.C. Oasis",
+            "phone": "09482749679",
+            "website": "https://www.sweetandcoffee.com.ec/",
+            "image": "images/directory/sweetandcoffee.webp",
+            "membership": "Silver",
+            "schedule": "Attention: 10am-10pm"
+        },
+        {
+            "name": "Avicola Fernandez",
+            "address": "C.C. Oasis",
+            "phone": "09854001844",
+            "website": "https://www.fernandez.ec/",
+            "image": "images/directory/fernandez.webp",
+            "membership": "Bronze",
+            "schedule": "Attention: 9am-9pm"
+        },
+        {
+            "name": "Fybeca",
+            "address": "Romeria Plaza",
+            "phone": "09471822365",
+            "website": "https://www.fybeca.com.ec/",
+            "image": "images/directory/fybeca.webp",
+            "membership": "Bronze",
+            "schedule": "Attention: 9am-10pm"
+        },
+        {
+            "name": "Domino's Pizza",
+            "address": "Romeria Plaza",
+            "phone": "09937559015",
+            "website": "https://www.dominos.ec/",
+            "image": "images/directory/dominos.webp",
+            "membership": "Silver",
+            "schedule": "Attention: 11am-9pm"
+        },
+        {
+            "name": "Tia",
+            "address": "Mucho Lote 2",
+            "phone": "09482799179",
+            "website": "https://www.tia.com.ec/",
+            "image": "images/directory/tia.webp",
+            "membership": "Gold",
+            "schedule": "Attention: 10am-10pm"
+        },
+        {
+            "name": "Mi Comisariato",
+            "address": "Mucho Lote 2",
+            "phone": "0938565213",
+            "website": "https://www.micomisariato.com.ec/",
+            "image": "images/directory/comisariato.webp",
+            "membership": "Gold",
+            "schedule": "Attention: 10am-9pm"
+        },
+        {
+            "name": "Primax",
+            "address": "Autopista Narcisa Jesus",
+            "phone": "09371994736",
+            "website": "https://www.primax.com.ec/",
+            "image": "images/directory/primax.webp",
+            "membership": "Bronze",
+            "schedule": "Attention: 24/7"
+        }
+    ]
+}

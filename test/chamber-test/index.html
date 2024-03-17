@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/chamber.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/banner.js" defer></script>
     <meta property="og:title" content="Teddy Espino - WDD 230 - MetroLote Chamber of Commerce" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://teddy2j.github.io/wdd230/chamber" />
@@ -33,16 +31,18 @@
         <section class="utility">
             <div class="logo">
                 <img src="images/logo.webp" alt="logo">
-                <h1>MetroLote Chamber of Commerce</h1>
+                <div class="title">
+                    <h1>MetroLote </h1>
+                    <p>Chamber of Commerce</p>
+                </div>
             </div>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="discover.html">DISCOVER</a>
+                <a href="directory.html">OUR MEMBERS</a>
+                <a href="join.html">JOIN US</a>
+            </nav>
         </section>
-
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="discover.html">DISCOVER</a>
-            <a href="join.html">JOIN US</a>
-            <a href="directory.html">OUR MEMBERS</a>
-        </nav>
 
     </header>
 
@@ -62,18 +62,9 @@
         </section>
 
         <section class="card">
-            <h3>Current Weather:</h3>
-            <p>Temperature: <span id="temperature"></span> </p>
-            <figure>
-                <img id="weather-icon" src="" alt="">
-                <figcaption></figcaption>
-            </figure>
+            <p>Temperature: <span id="temperature">30</span> F</p>
             <p>Wind Speed: <span id="windspeed">4</span> mph</p>
             <p>Wind Chill: <span id="windchill"></span></p>
-
-            <h3>Forecast:</h3>
-            <section id="forecastWeather">
-            </section>
         </section>
 
         <section class="card">
@@ -88,11 +79,6 @@
             Ad placeholder
         </section>
     </main>
-
-    <section id="banner">
-        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
-        <div id="closeBanner">❌</div>
-    </section>
 
     <footer>
         <section class="information">
