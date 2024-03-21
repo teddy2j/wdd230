@@ -9,51 +9,54 @@
     color: var(--secondary-color);
 }
 
-
-
 header {
     background-color: var(--primary-color);
+    padding: 1.5em;
+
 
 }
 
 .utility {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto .7fr;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 10px;
-}
-
-.utility img {
-    height: 150px;
-}
-
-.utility button {
-    font-size: larger;
-    padding: 30px;
-    margin: 20px
 }
 
 .logo {
     font-family: var(--heading-font);
     text-align: center;
+    display: flex;
+    align-items: center;
 }
+
+.logo img {
+    height: 150px;
+    margin: 10px 30px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
 
 #mode {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 3rem;
     cursor: pointer;
     font-size: 2rem;
 }
 
 #menu {
+    display: block;
+    margin: 10px auto;
     font-size: 2rem;
+    padding: 0.3em;
     background-color: rgba(255, 0, 0, 0);
     font-weight: 900;
-    padding: 3px 7px 6px;
-    border: 0;
     cursor: pointer;
 }
 
@@ -66,7 +69,7 @@ header {
 }
 
 nav {
-    width: 100%;
+    grid-column: 1/3;
 }
 
 nav a {
@@ -85,7 +88,7 @@ nav a {
     display: block;
     border: 1px solid black;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .hero {
@@ -115,17 +118,17 @@ nav a {
     box-shadow: 5px 5px 10px var(--secondary-color);
 }
 
-main {
+.cards {
     width: 95vw;
     margin: 0 auto;
+    padding: 1em;
 }
 
 .card {
-    margin: 10px;
+    padding: 1em;
     background-color: #fff9e6;
     border: 2px solid var(--secondary-color);
     font-family: var(--paragraph-font);
-    padding: 10px;
 }
 
 footer {

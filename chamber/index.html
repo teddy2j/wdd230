@@ -33,60 +33,66 @@
         <section class="utility">
             <div class="logo">
                 <img src="images/logo.webp" alt="logo">
-                <h1>MetroLote Chamber of Commerce</h1>
+                <div class="title">
+                    <h1>MetroLote </h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
             </div>
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="discover.html">DISCOVER</a>
+                <a href="directory.html">OUR MEMBERS</a>
+                <a href="join.html">JOIN US</a>
+            </nav>
         </section>
-
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="discover.html">DISCOVER</a>
-            <a href="join.html">JOIN US</a>
-            <a href="directory.html">OUR MEMBERS</a>
-        </nav>
-
+        <button id="menu"></button>
     </header>
 
-    <button id="menu"></button>
-    <div class="hero">
-        <picture>
-            <source media="(max-width: 900px)" srcset="images/hero-w06-small.webp">
-            <source media="(max-width: 1300px)" srcset="images/hero-w06-medium.webp">
-            <img src="images/hero-w06-large.webp" alt="hero img">
-        </picture>
-        <a href="join.html" class="call-to-action">Join the chamber</a>
-    </div>
-
     <main>
-        <section id="events" class="card">
-            Events placeholder
-        </section>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 900px)" srcset="images/small.webp">
+                <source media="(max-width: 1300px)" srcset="images/medium.webp">
+                <img src="images/large.webp" alt="hero img">
+                <a href="join.html" class="call-to-action">Join the chamber</a>
+            </picture>
+        </div>
 
-        <section class="card">
-            <h3>Current Weather:</h3>
-            <p>Temperature: <span id="temperature"></span> </p>
-            <figure>
-                <img id="weather-icon">
-                <figcaption></figcaption>
-            </figure>
-            <p>Wind Speed: <span id="windspeed">4</span> mph</p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-
-            <h3>Forecast:</h3>
-            <section id="forecastWeather">
+        <div class="cards">
+            <section class="card">
+                <h3>Events</h3>
+                <h4>Meet and Greet - La Romareda</h4>
+                <p>Join us for the opening of the chamber to this gathering that will take place in the very attractive
+                    La romareda plaza.</p>
             </section>
-        </section>
 
-        <section class="card">
-            Ad placeholder
-        </section>
+            <section class="card">
+                <h3>Current Weather:</h3>
+                <p>Temperature: <span id="temperature"></span> </p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed: <span id="windspeed">4</span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
 
-        <section class="card">
-            Ad placeholder
-        </section>
+                <h3>Forecast:</h3>
+                <section id="forecastWeather">
+                </section>
+            </section>
 
-        <section class="card">
-            Ad placeholder
-        </section>
+            <section class="card">
+                Ad placeholder
+            </section>
+
+            <section class="card">
+                Ad placeholder
+            </section>
+
+            <section class="card">
+                Ad placeholder
+            </section>
+        </div>
     </main>
 
     <section id="banner">

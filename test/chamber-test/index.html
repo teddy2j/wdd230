@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/chamber.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
     <meta property="og:title" content="Teddy Espino - WDD 230 - MetroLote Chamber of Commerce" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://teddy2j.github.io/wdd230/chamber" />
@@ -33,7 +35,7 @@
                 <img src="images/logo.webp" alt="logo">
                 <div class="title">
                     <h1>MetroLote </h1>
-                    <p>Chamber of Commerce</p>
+                    <h2>Chamber of Commerce</h2>
                 </div>
             </div>
             <nav>
@@ -43,42 +45,60 @@
                 <a href="join.html">JOIN US</a>
             </nav>
         </section>
-
+        <button id="menu"></button>
     </header>
 
-    <button id="menu"></button>
-    <div class="hero">
-        <picture>
-            <source media="(max-width: 900px)" srcset="images/hero-w06-small.webp">
-            <source media="(max-width: 1300px)" srcset="images/hero-w06-medium.webp">
-            <img src="images/hero-w06-large.webp" alt="hero img">
-            <a href="join.html" class="call-to-action">Join the chamber</a>
-        </picture>
-    </div>
-
     <main>
-        <section id="events" class="card">
-            Events placeholder
-        </section>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 900px)" srcset="images/small.webp">
+                <source media="(max-width: 1300px)" srcset="images/medium.webp">
+                <img src="images/large.webp" alt="hero img">
+                <a href="join.html" class="call-to-action">Join the chamber</a>
+            </picture>
+        </div>
 
-        <section class="card">
-            <p>Temperature: <span id="temperature">30</span> F</p>
-            <p>Wind Speed: <span id="windspeed">4</span> mph</p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-        </section>
+        <div class="cards">
+            <section class="card">
+                <h3>Events</h3>
+                <h4>Meet and Greet - La Romareda</h4>
+                <p>Join us for the opening of the chamber to this gathering that will take place in the very attractive
+                    La romareda plaza.</p>
+            </section>
 
-        <section class="card">
-            Ad placeholder
-        </section>
+            <section class="card">
+                <h3>Current Weather:</h3>
+                <p>Temperature: <span id="temperature"></span> </p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed: <span id="windspeed">4</span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
 
-        <section class="card">
-            Ad placeholder
-        </section>
+                <h3>Forecast:</h3>
+                <section id="forecastWeather">
+                </section>
+            </section>
 
-        <section class="card">
-            Ad placeholder
-        </section>
+            <section class="card">
+                Ad placeholder
+            </section>
+
+            <section class="card">
+                Ad placeholder
+            </section>
+
+            <section class="card">
+                Ad placeholder
+            </section>
+        </div>
     </main>
+
+    <section id="banner">
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+        <div id="closeBanner">❌</div>
+    </section>
 
     <footer>
         <section class="information">
