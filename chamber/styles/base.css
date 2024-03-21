@@ -381,3 +381,7 @@ article img {
     margin: 0;
     cursor: pointer;
 }
+
+.current-page {
+    border-bottom: black solid 3px;
+}
