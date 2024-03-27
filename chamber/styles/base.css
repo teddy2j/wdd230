@@ -385,3 +385,8 @@ article img {
 .current-page {
     border-bottom: black solid 3px;
 }
+
+.ad img {
+    width: 80%;
+    max-width: 500px;
+}
