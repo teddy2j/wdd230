@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots. Motor scooter rental company. </title>
+    <meta name="author" content="Teddy Espino">
+    <meta name="description"
+        content="Discover the ultimate gateway to adventure with ~Scoots~! Explore the vibrant streets and hidden treasures of Cozumel from the seat of your own motor scooter, jeep, or side-by-side ATV. Whether you're a local, a spontaneous adventurer, or part of a cruise-based touring group, our user-friendly website is your go-to resource for hassle-free rentals and unforgettable experiences. Start planning your Cozumel escapade today!">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/chamber.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+    <meta property="og:title" content="Scoots. Motor scooter rental company." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://teddy2j.github.io/wdd230/final-project-scoots/index.html" />
+    <meta property="og:image" content="images/og.jpg" />
+
+</head>
+
+<body>
+
+    <header>
+        <div id="mode">
+            🕶️
+        </div>
+        <section class="utility">
+            <div class="logo">
+                <img src="images/logo.webp" alt="logo">
+                <div class="title">
+                    <h1>MetroLote </h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html" class="current-page">HOME</a>
+                <a href="discover.html">DISCOVER</a>
+                <a href="directory.html">OUR MEMBERS</a>
+                <a href="join.html">JOIN US</a>
+            </nav>
+        </section>
+        <button id="menu"></button>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 900px)" srcset="images/small.webp">
+                <source media="(max-width: 1300px)" srcset="images/medium.webp">
+                <img src="images/large.webp" alt="hero img">
+                <a href="join.html" class="call-to-action">Join the chamber</a>
+            </picture>
+        </div>
+
+        <div class="cards">
+            <section class="card">
+                <h3>Events</h3>
+                <h4>Meet and Greet - La Romareda</h4>
+                <p>Join us for the opening of the chamber to this gathering that will take place in the very attractive
+                    La romareda plaza.</p>
+            </section>
+
+            <section class="card">
+                <h3>Current Weather:</h3>
+                <p>Temperature: <span id="temperature"></span> </p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed: <span id="windspeed">4</span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+
+                <h3>Forecast:</h3>
+                <section id="forecastWeather">
+                </section>
+            </section>
+
+            <section class="card ad">
+                Ad placeholder
+            </section>
+
+            <section class="card ad">
+                Ad placeholder
+            </section>
+
+            <section class="card ad">
+                Ad placeholder
+            </section>
+        </div>
+    </main>
+
+    <section id="banner">
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+        <div id="closeBanner">❌</div>
+    </section>
+
+    <footer>
+        <section class="information">
+            <div class="address">
+                <img src="images/logo.webp" alt="logo">
+                <p><strong>MetroLote Chamber of Commerce</strong><br> Autopista Narcisa de Jesus. Urb. Veranda</p>
+            </div>
+            <div class="email-number">
+                teddy2jem@gmail.com <br>
+                +5939 8212 2083 <br>
+                <span id="location">location placeholder</span>
+
+            </div>
+        </section>
+
+        <section class="copyright">
+            &copy;2024 Metrolote Chamber | Teddy Espino | WDD 230 Project | <span id="lastModified"></span>
+        </section>
+    </footer>
+</body>
+
+</html>
