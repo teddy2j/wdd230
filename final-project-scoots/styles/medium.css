@@ -1,0 +1,22 @@
+@media screen and (min-width: 900px) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .discover-main {
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
+
+    .photos-discover img:hover {
+        box-shadow: 0 0 20px var(--secondary-color);
+
+    }
+
+    .formArea {
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
+}

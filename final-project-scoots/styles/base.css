@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Song+Myung&display=swap');
+
+:root {
+    --primary-color: #fed766;
+    --secondary-color: #00414b;
+    --third-color: #fe4a49;
+    --heading-font: 'Archivo', sans-serif;
+    --paragraph-font: 'Song Myung', serif;
+    color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1.5em;
+
+
+}
+
+.utility {
+    display: grid;
+    grid-template-columns: auto .7fr;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: var(--heading-font);
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 150px;
+    margin: 10px 30px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#menu {
+    display: block;
+    margin: 10px auto;
+    font-size: 2rem;
+    padding: 0.3em;
+    background-color: rgba(255, 0, 0, 0);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "--";
+}
+
+nav {
+    grid-column: 1/3;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--paragraph-font);
+    display: none;
+    color: var(--secondary-color);
+    text-shadow: -1px -1px 0 var(--primary-color),
+        1px -1px 0 var(--primary-color),
+        -1px 1px 0 var(--primary-color),
+        1px 1px 0 var(--primary-color);
+}
+
+.open a {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    width: 95vw;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.call-to-action {
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    top: 15px;
+    left: 15px;
+    font-size: large;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--secondary-color);
+}
+
+.cards {
+    width: 95vw;
+    margin: 0 auto;
+    padding: 1em;
+    justify-content: center;
+}
+
+.card {
+    padding: 1em;
+    background-color: #fff9e6;
+    border: 2px solid var(--secondary-color);
+    font-family: var(--paragraph-font);
+}
+
+footer {
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    padding: 10px;
+}
+
+.information {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.address img {
+    width: 120px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.copyright {
+    border-top: 1px solid var(--secondary-color);
+    width: 70%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.discover-main {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.sidebar div {
+    border: 3px solid var(--secondary-color);
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sidebar div h3 {
+    border-bottom: 2px solid var(--secondary-color);
+    background-color: #fed766;
+    margin: 0;
+    padding: 20px;
+}
+
+.sidebar div p {
+    padding: 10px;
+}
+
+.sidebar div img {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.sidebar div iframe {
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.photos-discover {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.photos-discover img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+label {
+    display: block;
+    margin: 30px 0;
+}
+
+input {
+    display: block;
+    padding: 12px;
+    width: 100%;
+    max-width: 25rem;
+    background-color: #fff9e6;
+    border: 1px solid black;
+}
+
+.submitBtn {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+#rangevalue {
+    font-size: 2em;
+    padding-top: 20px;
+
+}
+
+.membership {
+    display: inline;
+    width: 30px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 25rem;
+    background-color: #fff9e6;
+
+}
+
+form div {
+    font-weight: bolder;
+}
+
+.memberships {
+    width: 90%;
+    margin: auto;
+}
+
+.membershipCard {
+    border: 1px solid #00414b;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.membershipCard h3 {
+    background-color: #fed766;
+    margin: 0;
+    padding: 15px;
+}
+
+h2 {
+    padding-left: 15px;
+}
+
+.grid-list {
+    width: 50%;
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #bed;
+    text-align: center;
+    background-color: #fed766;
+}
+
+article {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+article section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+article img {
+    height: 75px;
+    max-width: 100%;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+#grid,
+#list {
+    width: 300px;
+    height: 50px;
+}
+
+#forecastWeather {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#forecastWeather div {
+    border: #00414b solid 1px;
+    padding: 10px;
+}
+
+#banner {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    width: 70%;
+    height: 70%;
+    background-color: #bed;
+    font-size: 2em;
+    text-align: center;
+    display: none;
+}
+
+#banner p {
+    width: 40%;
+    margin: auto auto;
+    margin-top: 7em;
+}
+
+#closeBanner {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.current-page {
+    border-bottom: black solid 3px;
+}
+
+.ad img {
+    width: 80%;
+    max-width: 500px;
+}

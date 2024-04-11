@@ -1,0 +1,29 @@
+@media screen and (min-width: 1200px) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card:first-child {
+        grid-column: 1/3;
+    }
+
+    nav {
+        grid-column: 2/3;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.5em;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #events {
+        grid-column: 1/3;
+    }
+
+}
