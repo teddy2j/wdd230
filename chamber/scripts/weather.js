@@ -1,7 +1,6 @@
 const currentTemp = document.querySelector('#temperature');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-
 const forecast = document.querySelector('#forecastWeather');
 
 const url = "https://api.openweathermap.org/data/2.5/forecast?lat=-2.19&lon=-79.90&units=imperial&appid=146a25c754648df720367b60e1f0ca25";
