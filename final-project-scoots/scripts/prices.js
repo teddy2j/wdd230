@@ -1,13 +1,13 @@
 const tbody = document.querySelector("tbody");
+const cardsContainer = document.querySelector("#cards")
 
 async function getPrices() {
     const response = await fetch("https://teddy2j.github.io/wdd230/final-project-scoots/data/rental.json");
     const data = await response.json();
-    const rentals = data.rentals;
+    const rentals = data.rentals; //rentals is an array of objects
 
-    console.log(rentals);
-
-    fillTable(rentals); //rentals is an array of objects
+    fillTable(rentals);
+    makeCards(rentals);
 
 }
 
@@ -42,4 +42,37 @@ function fillTable(rentals) {
 
 
     });
+}
+
+function makeCards(rentals) {
+    rentals.forEach(rental => {
+        const card = document.createElement("div");
+        card.setAttribute("class", "scooter-card");
+        const title = document.createElement("h3");
+        const maxPersons = document.createElement("p");
+        const picture = document.createElement("img");
+        const priceFull = document.createElement("p");
+
+        title.innerHTML = rental.rentalType;
+        maxPersons.innerHTML = `Max. Persons: ${rental.maxPersons}`;
+        picture.setAttribute("src", rental.imgSrc);
+        picture.setAttribute("loading", "lazy");
+        priceFull.innerHTML = `Reserve NOW for a full day: $${rental["priceFull-reservation"]}`;
+        const price = document.createElement("p");
+        price.setAttribute("class", "price");
+        price.innerHTML = `$${rental["priceFull-reservation"]}`
+        priceFull.appendChild(price);
+
+        card.appendChild(title);
+        card.appendChild(maxPersons);
+        card.appendChild(picture);
+        card.appendChild(priceFull);
+
+        cardsContainer.appendChild(card);
+
+        console.log("hello");
+
+
+    });
+
 }

@@ -34,7 +34,7 @@
                 <a href="index.html">HOME</a>
                 <a href="rentals.html">RENTAL</a>
                 <a href="reservation.html" class="current-page">RESERVATION</a>
-                <a href="contact.html" class="current-page">CONTACT</a>
+                <a href="contact.html">CONTACT</a>
             </nav>
         </section>
         <button id="menu"></button>
@@ -42,6 +42,83 @@
 
     <main>
         <h2>Reservation</h2>
+        <div class="reservation">
+            <section class="agreement">
+                Rental Services and Agreement
+                <ul>
+                    <li>A $50 security deposit is required to confirm reservations.</li>
+                    <li>A valid drivers license is required in hand at the time of rental.</li>
+                    <li>No one under the age of 12 years of age are allowed to ride on the scooters.</li>
+                    <li>Fuel charge is not included.</li>
+                    <li>Unlimited mileage.</li>
+                    <li>Liability insurance is included.</li>
+                    <li>Damage insurance is available for purchase.</li>
+                    <li>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</li>
+                    <li>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</li>
+                    <li>Rentals may be returned to either physical location.</li>
+                </ul>
+            </section>
+
+            <section class="form">
+                <form action="thankyou.html" method="get">
+                    <h3>Rental Information</h3>
+
+                    <label for="startDate">Start Date
+                        <input type="date" id="startDate" name="startDate" required>
+                    </label>
+
+                    <label for="endDate">End Date
+                        <input type="date" id="endDate" name="endDate" required>
+                    </label>
+
+
+                    <div>Type of Rental <br> <br> </div>
+                    Duration
+                    <label><input class="circles" type="radio" name="duration" value="half"> Half Day</label>
+                    <label><input class="circles" type="radio" name="duration" value="full"> Full Day</label>
+
+                    Vehicle
+
+
+                    <label><input class="circles" type="radio" name="vehicle" value="hondaMetro">Honda Metro
+                        Scooter</label>
+                    <label><input class="circles" type="radio" name="vehicle" value="hondaDio">Honda Dio Scooter</label>
+                    <label><input class="circles" type="radio" name="vehicle" value="hondaPCX150">Honda PCX150
+                        Scooter</label>
+                    <label><input class="circles" type="radio" name="vehicle" value="hondaPioneer">Honda Pioneer
+                        ATV</label>
+                    <label><input class="circles" type="radio" name="vehicle" value="jeep4door">Jeep Wrangler - 4 door
+                        with a/c</label>
+                    <label><input class="circles" type="radio" name="vehicle" value="jeep2door">Jeep Wrangler - 2
+                        door</label>
+
+                    <label for="name">Name
+                        <input type="text" id="name" name="name" required>
+                    </label>
+
+                    <label for="tel"> Phone Number
+                        <input type="tel" id="tel" name="tel" required>
+                    </label>
+
+                    <label for="email">Email <input type="email" id="email" name="email" required
+                            placeholder="name@gmail.com"></label>
+
+                    <label for="state">State
+                        <input type="text" id="state" name="state" required>
+                    </label>
+
+                    <label for="comments">Comments
+                        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    </label>
+
+                    <input type="submit" value="Make your reservation" class="submitBtn">
+                </form>
+            </section>
+
+
+
+        </div>
+
 
     </main>
 
