@@ -5,6 +5,8 @@ async function getPrices() {
     const data = await response.json();
     const rentals = data.rentals;
 
+    console.log(rentals);
+
     fillTable(rentals); //rentals is an array of objects
 
 }
@@ -24,10 +26,10 @@ function fillTable(rentals) {
 
         rentalType.innerHTML = rental.rentalType;
         maxPersons.innerHTML = rental.maxPersons;
-        reservationHalf.innerHTML = rental.priceHalf - reservation;
-        reservationFull.innerHTML = rental.priceFull - reservation;
-        walkinHalf.innerHTML = rental.priceHalf - walkin;
-        walkinnFull.innerHTML = rental.priceFull - walkin;
+        reservationHalf.innerHTML = rental["priceHalf-reservation"];
+        reservationFull.innerHTML = rental["priceFull-reservation"];
+        walkinHalf.innerHTML = rental["priceHalf-walkin"];
+        walkinnFull.innerHTML = rental["priceFull-walkin"];
 
         row.appendChild(rentalType);
         row.appendChild(maxPersons);
